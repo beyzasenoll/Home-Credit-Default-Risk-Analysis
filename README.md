@@ -41,9 +41,9 @@ The dataset is sourced from the [Kaggle Home Credit Default Risk competition](ht
 
 During the model training process, feature selection was applied to improve model performance. Techniques like **LOFO (Leave-One-Feature-Out) importance** were used to identify the most impactful features, which significantly contributed to boosting the model's performance.
 
-## Hyperparameter Optimization
+## Hyperparameter Optimization with Optuna
 
-I used **Optuna** for hyperparameter optimization to fine-tune the LightGBM and CatBoost models. This process helped to maximize the AUC score by finding the optimal combination of hyperparameters.
+I used **Optuna**, a framework for hyperparameter optimization, to fine-tune both LightGBM and CatBoost models. Optuna’s efficient search space exploration allowed me to find the best combination of hyperparameters, which maximized the AUC score.
 
 ### Key Results
 
